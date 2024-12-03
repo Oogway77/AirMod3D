@@ -1,0 +1,39 @@
+{
+  "asset": {
+    "version": "1.0",
+    "tilesetVersion": "1.0"
+  },
+  "geometricError": 100,
+  "root": {
+    "boundingVolume": {
+      "region": [
+        -1.0,
+        -1.0,
+        1.0,
+        1.0,
+        0,
+        1000
+      ]
+    },
+    "geometricError": 100,
+    "refine": "ADD",
+    "children": [
+      {
+        "boundingVolume": {
+          "box": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        "geometricError": 50,
+        "content": {
+          "uri": "points.b3dm"
+        }
+      }
+    ]
+  }
+}

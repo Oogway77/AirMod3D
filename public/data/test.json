@@ -1,0 +1,19 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.01233107775101, 40.712615664212315, 203.06666564941406]
+            },
+            "properties": {
+                "id": "Test",
+                "type": "ENTITY",
+                "marker": "STANDARD",
+                "details": {},
+                "bottomHeight": 13.1768217078048
+            }
+        }
+    ]
+}

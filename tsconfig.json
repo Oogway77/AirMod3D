@@ -1,0 +1,15 @@
+{
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "compilerOptions": {
+        "noEmit": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "jsx": "react-jsx",
+        "baseUrl": ".",
+        "paths": {
+            "@core": ["src/core/index"],
+            "@core/*": ["src/core/*"]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "id": "Test",
+        "name": "Test",
+        "geom": [-74.00597, 40.71427],
+        "fileName": "test.json"
+    },
+    {
+        "id": "RN100216761",
+        "name": "LYONDELLBASELL BAYPORT POLYMERS",
+        "geom": [-95.0526075, 29.6301196],
+        "fileName": "RN100216761.json"
+    },
+    {
+        "id": "RN100218841",
+        "name": "KANEKA PASADENA SITE",
+        "geom": [-95.087159, 29.6233635],
+        "fileName": "RN100218841.json"
+    }
+]

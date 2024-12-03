@@ -1,0 +1,38 @@
+.cesium-viewer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/*navigation mixin*/
+
+$navigation-custom-bottom: 20px;
+$navigation-custom-compass-bottom: 8px;
+$navigation-custom-background-color: rgba(255, 255, 255, 0);
+
+.compass {
+    bottom: $navigation-custom-compass-bottom !important;
+    top: auto !important;
+    background-color: $navigation-custom-background-color !important;
+}
+
+.navigation-controls {
+    right: 153px !important;
+    top: auto !important;
+    bottom: $navigation-custom-bottom !important;
+    background-color: $navigation-custom-background-color !important;
+}
+
+.distance-legend {
+    right: 183px !important;
+    bottom: $navigation-custom-bottom !important;
+    background-color: $navigation-custom-background-color !important;
+    border-radius: 0 !important;
+}
+
+.cesium-viewer-toolbar {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
